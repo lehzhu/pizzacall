@@ -1,0 +1,22 @@
+{
+  "prompt_patterns": {
+    "menu": ["press 1", "for delivery press 1", "press one for delivery", "press one for english", "for english press 1"],
+    "name": ["say your name", "name for the order", "who is this order for", "please say your name"],
+    "callback": ["phone number", "callback number", "telephone number", "call back number", "enter your phone number"],
+    "zip": ["zip code", "postal code", "postcode", "please say your zip code"],
+    "confirm": ["is that correct", "if this is correct", "if correct say yes", "if this is right say yes"],
+    "transfer": ["please hold", "transfer you", "connecting you", "one moment while i connect you"]
+  },
+  "failure_patterns": ["goodbye", "unable to process", "try again later"],
+  "hold_patterns": ["please continue to hold", "please stay on hold", "your call is important", "music", "brief hold", "one moment while"],
+  "human_patterns": ["what can i get started", "thanks for calling", "name for the order", "can i put you on hold", "how may i take your order", "how can i help you", "this is manager", "welcome to"],
+  "bot_suspected_patterns": ["press 1", "press 2", "for delivery", "for pickup", "main menu", "option"],
+  "ivr_targets": {
+    "menu": "1",
+    "confirm_yes": "yes",
+    "confirm_no": "no"
+  },
+  "max_substate_retries": 2,
+  "max_terminal_failures": 3,
+  "human_grace_seconds": 2.0
+}
